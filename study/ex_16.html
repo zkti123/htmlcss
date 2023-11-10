@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+		table, th, td { 
+			border:1px solid gray;  /* 표의 테두리 - 1px 회색 실선 */
+			border-collapse:collapse;  /* 표 테두리와 셀 테두리 합치기 */
+		}
+		th, td {
+			width:100px;  /* 셀 너비 */
+			padding:5px;  /* 셀 패딩(테두리와 내용 사이의 여백) */
+		}
+		caption {
+			font-size:20px;  /* 표 설명글 글자 크기 */
+			margin:10px;  /* 표 설명글 주변 여백 */
+			font-weight:bold;  /* 표 설명글 글자 굵게 */
+		}
+	</style>
+    
+</head>
+
+<body>
+    <table>
+        <colgroup>
+        <col>
+        </colgroup>
+        <caption>요안도라 객실</caption>
+        <thead>
+            <tr>
+                <th>방 이름</th>
+                <th>대상</th>
+                <th>크기</th>
+                <th>가격</th>
+            </tr>           
+        </thead>
+        <tbody>
+            <tr>
+                <th>유채방</th>
+                <td>여성 도미토리</td>
+                <td rowspan="2">4인실</td>
+                <td rowspan="4">1인 20,000원</td>
+            </tr>
+            <tr>
+                <th >동백방</th>
+                <td>동성 도미토리</td>
+                <td >가족 1팀</td>
+            </tr>
+                <tr>
+                 <th>천혜양방</th>
+                <td>-</td>
+                <td> 2인실</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th colspan="4"> 바깥채 전체를 렌트합니다</th>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
