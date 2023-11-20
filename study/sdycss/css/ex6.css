@@ -1,0 +1,15 @@
+h2.accent{
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+}
+.browntext{
+    color: brown;
+
+}
+.boldtext{
+    font-weight: bold;
+}
+.bluetext{
+    color: blue;
+}
