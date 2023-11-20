@@ -13,3 +13,8 @@ h2.accent{
 .bluetext{
     color: blue;
 }
+#container{
+    width: 600px;
+    padding: 15px;
+    border : 1px dotted gray;
+}
