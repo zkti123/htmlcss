@@ -1,0 +1,8 @@
+.trans1{
+    text-transform: uppercase
+    ;
+}
+
+.trans2{
+    text-transform: capitalize; /*첫글자만 대문자 표시*/
+}
