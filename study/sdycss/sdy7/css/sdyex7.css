@@ -1,0 +1,12 @@
+div {
+    width: 300px;
+    padding: 10%;
+    border: 1px solid #bf9595;
+    
+          margin-bottom:20px;
+  }
+.d1{
+    background: url('/study/sdycss/sdy7/imgss/apple-bg.jpg');
+    right: bottom;
+    background-size: cover;
+}
