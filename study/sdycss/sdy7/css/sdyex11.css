@@ -1,0 +1,19 @@
+div {
+    width:500px;
+    height:300px;
+    border-radius:10px;
+}
+.grad{
+    background: red;
+    background-image: -webkit-linear-gradient(white,yellow,red);
+    background-image: -moz-linear-gradient(white,yellow,red);
+    background: -o-linear-gradient(white,yellow,red);
+    background: radial-gradient(white,yellow,red);
+}
+.grad1{
+    background: red;
+    background-image: -webkit-linear-gradient(circle,white,yellow,red);
+    background-image: -moz-linear-gradient(circle,white,yellow,red);
+    background: -o-linear-gradient(circle,white,yellow,red);
+    background: radial-gradient(circle,white,yellow,red);
+}
