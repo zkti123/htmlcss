@@ -1,0 +1,12 @@
+div {
+    width:400px;
+    height:250px;
+    border-radius:10px;
+}
+#div1{
+    background: darkgray;
+    background-image: -webkit-radial-gradient(30% 40%,circle closest-side,white,yellow,green);
+    background-image: -moz-radial-gradient(30% 40%,circle closest-side,white,yellow,green);
+    background: -o-radial-gradient(30% 40%,circle closest-side,white,yellow,green);
+    background: radial-gradient(30% 40%,circle closest-side,white,yellow,green);
+}
