@@ -1,0 +1,20 @@
+div {
+    width:500px;
+    height:300px;
+    border-radius:10px;
+margin:10px;
+}
+/* .grad1{
+    background: red;
+    background: -webkit-repeating-linear-gradient(yellow,re20px);
+    background: -moz-repeating-linear-gradient(yellow,re20px);
+    background: -o-repeating-linear-gradient(yellow,re20px);
+    background: repeating-linear-gradient(yellow,re20px);
+} */
+.grad1 {
+    background: red; /* css3 미지원 브라우저 */
+    background: -webkit-repeating-linear-gradient(yellow, red 20px); /* 초기 모던 브라우저 */
+    background: -moz-repeating-linear-gradient(yellow, red 20px); /* 초기 모던 브라우저 */
+    background: -o-repeating-linear-gradient(yellow, red 20px); /* 초기 모던 브라우저 */
+    background: repeating-linear-gradient(yellow, red 20px); /* 최신 모던 브라우저 */
+}
