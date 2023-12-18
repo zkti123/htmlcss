@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.round{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+#bg{
+    background: url(/study/sdy8/img/pic1.jpg) no-repeat;
+    background-size: cover;
+}
