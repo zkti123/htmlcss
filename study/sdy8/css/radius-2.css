@@ -1,0 +1,12 @@
+div{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 70px/40px;
+}
+.bg{
+    background: url(/study/sdy8/img/pic2.jpg) no-repeat;
+    background-size: cover;
+}
